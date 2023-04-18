@@ -39,7 +39,7 @@ We are guaranteed the eigenstates of the Hermitian operator are orthonormal by t
 For the Hamiltonian, this means that we can refer to the eigenvectors $\ket{\psi_n}$'s as the states with definite energy, and the $E_n$'s as the energies of the corresponding states. They are related them via
 \[ H \ket{\psi_n} = E_n \ket{\psi_n},\]
 which is often called the \textbf{time-independent Schrodinger equation}. With this substitution, we obtain
-\[ i \pdv{}{t} \ket{\psi(t)} = E_n \ket{\psi(t)} \implies \ket{\psi(t)} = e^{-i E_n t} \ket{\psi(0)} = e^{-i E_n t} \ket{\psi_n} \]
+\[ i \pdv{}{t} \ket{\psi(t)} = E_n \ket{\psi(t)} \implies \ket{\psi(t)} = e^{-i E_n t} \ket{\psi(0)} = \sum_n e^{-i E_n t} \ket{\psi_n} \]
 So essentially, Schrodinger's Equation tells us that the behavior for a given quantum state $\ket{\psi(t)}$ is characterized by its component states $\ket{\psi_n}$ precessing at a rate proportional to its energy $E_n$. 
 
 \begin{example}
